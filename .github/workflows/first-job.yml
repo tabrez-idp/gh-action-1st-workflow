@@ -1,12 +1,11 @@
 name: first_flow
 on: workflow_dispatch
 jobs:
-	first-job:
-		runs-on: ubuntu-latest
-		
-		steps:
-			- name: Greetings!
-			    echo "Hello Tabrez!"
+  first-job:
+    runs-on: ubuntu-latest
+	steps:
+	  - name: Greetings!
+	    echo "Hello Tabrez!"
 
-			- name: Farewell
-			    echo "Bye Bye!"
+	  - name: Farewell
+	    echo "Bye Bye!"
