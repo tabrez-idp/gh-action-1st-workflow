@@ -4,7 +4,7 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Greetings!
+      - name: Greetings
 	echo "Hello Tabrez!"
 
       - name: Farewell
