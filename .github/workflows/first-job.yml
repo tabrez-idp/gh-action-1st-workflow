@@ -5,7 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Greetings
-	echo "Hello Tabrez!"
-
+        run: echo "Hello Tabrez!"
+	
       - name: Farewell
-	echo "Bye Bye!"
+        run: echo "Bye Bye"
+
